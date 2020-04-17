@@ -2,8 +2,8 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var port = process.env.PORT || 3000;
-const chat = require('./chat.js');
-chat.start(io);
+const main = require('./main.js');
+main.start(io);
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html');
 });
