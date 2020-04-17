@@ -1,6 +1,5 @@
 {
-  "name": "Pesten",
-  "description": "A simple card game to learn how to use nodejs and socket.io",
+  "name": "Pesten",  "description": "A simple card game to learn how to use nodejs and socket.io",
   "website": "https://motxila.nl",
   "repository": "https://github.com/herrieb/pesten",
   "success_url": "/",
